@@ -1,0 +1,21 @@
+table,td,th{
+	border:2px solid black;
+	border-collapse:collapse;
+	text-align:center;
+}
+table{
+	width:100%;
+	height:auto;
+}
+
+	td{
+		height:50px;
+		vertical-align:top;
+		padding:30px;
+	}
+	
+	tr:nth-child(even)
+	{background-color:blue;}
+	
+	tr:hover{background-color:green; color:yellow; font-size:30px;}
+	
